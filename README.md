@@ -17,22 +17,22 @@
 # Огляд реалізації
 Для початку необхідна інсталювати boost. Завантажуємо останню версію бібліотеки за посиланням https://www.boost.org/users/download/#live, розпаковуємо та зберігаємо деінде на комп'ютері  
 Створюємо проект в VisualStudio та відкриваємо термінал **View -> Terminal**  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic1.png)   
+![pic1](https://github.com/sotnikea/M_pTask12/raw/main/img/pic1.png)   
 
 В терміналі вказуємо шлях до теки з boost, наприклад  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic2.png)   
+![pic2](https://github.com/sotnikea/M_pTask12/raw/main/img/pic2.png)   
 
 Та даємо команду на компілювання **.\bootstrap.bat**  
 Після чого вводимо команду **.\b2**  
 Побудова триває близько 10 хвилин. 
 По завершенню в налаштуваннях проекту   
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic3.png)  
+![pic3](https://github.com/sotnikea/M_pTask12/raw/main/img/pic3.png)  
 
 Вказуємо шлях до завантаженного boost:  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic4.png)  
+![pic4](https://github.com/sotnikea/M_pTask12/raw/main/img/pic4.png)  
 
 А також шлях до його бібліотек  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic5.png)  
+![pic5](https://github.com/sotnikea/M_pTask12/raw/main/img/pic5.png)  
 
 З використанням boost створено два проекти - клієнт, що здатен приймати та зберігати файл. Так клієнт, що під'єднується до серверу та відсилає йому цей файл.  
 Перевіримо роботу додатків на трьох файлах, розміщених за адресою: E:\PROJECTS\c++\Some data
@@ -74,7 +74,7 @@ E:\PROJECTS\c++\MyClient\Debug>.\MyClient.exe E:\PROJECTS\c++\Some data\text.txt
 ~~~
 
 Наступним етапом додаток запропонує вказати IP за яким працює сервер, та порт, який він прослуховує. Дізнатись ip можна за допомогою консолі та команди ipconfig  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic6.png)  
+![pic6](https://github.com/sotnikea/M_pTask12/raw/main/img/pic6.png)  
 
 Вказуємо необхідні IP та порт:
 ~~~
@@ -157,15 +157,16 @@ Received: 91.47 Mb
 Як і в попередніх випадках розмір файлів, їх назва, розширення та вміст до відправки та після повністю співпадають.
 
 Тека, з якох проводилось копіювання:  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic7.png)  
+![pic7](https://github.com/sotnikea/M_pTask12/raw/main/img/pic7.png)  
 
 Та тека з додатком-сервером, та результатам прийому файлів:  
-(https://github.com/sotnikea/M_pTask12/raw/main/img/pic8.png)  
+![pic8](https://github.com/sotnikea/M_pTask12/raw/main/img/pic8.png)  
 
 # Посилання
 Download boost - https://www.boost.org/users/download/#live  
 Пример сервера из документации boost - https://www.boost.org/doc/libs/1_79_0/doc/html/boost_asio/example/cpp11/echo/blocking_tcp_echo_server.cpp  
 Пример клиента из документации boost - https://www.boost.org/doc/libs/1_79_0/doc/html/boost_asio/example/cpp11/echo/blocking_tcp_echo_client.cpp  
+
 Разворачивание библиотеки boost - https://ru.stackoverflow.com/questions/368975/%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D1%83-boost  
 Компиляция и установка boost - http://kaktusenok.blogspot.com/2013/08/boost-visual-studio.html  
 Networking in C++ Part #1: MMO Client/Server, ASIO & Framework Basics - https://www.youtube.com/watch?v=2hNdkYInj4g  
